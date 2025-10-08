@@ -1,9 +1,7 @@
 import java.util.Scanner;
 
-// Calculator class demonstrating method overloading
 class Calculator {
 
-    // Overloaded methods for addition
     int add(int a, int b) {
         return a + b;
     }
@@ -16,17 +14,14 @@ class Calculator {
         return a + b + c;
     }
 
-    // Subtraction method
     int subtract(int a, int b) {
         return a - b;
     }
 
-    // Multiplication method
     double multiply(double a, double b) {
         return a * b;
     }
 
-    // Division method with simple exception handling
     double divide(int a, int b) {
         if (b == 0) {
             System.out.println("Error: Cannot divide by zero!");
@@ -36,7 +31,6 @@ class Calculator {
     }
 }
 
-// Main class for user interaction
 public class CalculatorApp {
 
     public static void main(String[] args) {
